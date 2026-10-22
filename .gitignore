@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/main
 # Object file
 *.o
 
 # Ada Library Information
 *.ali
+<<<<<<< HEAD
 =======
 *.iml
 .gradle
@@ -21,3 +25,5 @@
 .cxx
 local.properties
 >>>>>>> f49610e (Upload soure code shopiku kotlin oppo A1)
+=======
+>>>>>>> origin/main
