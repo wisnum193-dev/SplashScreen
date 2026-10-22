@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Praktikum"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_simpan1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="1. Simpan 1 Data (SharedPreferences)"
+        android:backgroundTint="#4CAF50"
+        app:cornerRadius="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Shared Preferences dasar"
+        android:textSize="12sp"
+        android:textColor="#64748B"
+        android:layout_marginBottom="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_simpanBanyak"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="2. Simpan Banyak Data"
+        android:backgroundTint="#2196F3"
+        app:cornerRadius="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan menyimpan data jamak"
+        android:textSize="12sp"
+        android:textColor="#64748B"
+        android:layout_marginBottom="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_listView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="3. Membuat List View Dasar"
+        android:backgroundTint="#E2B4BD"
+        app:cornerRadius="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membuat daftar kontak WA sederhana"
+        android:textSize="12sp"
+        android:textColor="#64748B"
+        android:layout_marginBottom="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="4. Membuat Recycleview Dasar"
+        android:backgroundTint="#C19C29"
+        app:cornerRadius="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membuat daftar kontak WA menggunakan Recycleview"
+        android:textSize="12sp"
+        android:textColor="#64748B" />
+
+</LinearLayout>
